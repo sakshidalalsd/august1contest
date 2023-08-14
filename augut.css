@@ -1,0 +1,27 @@
+#dogg{
+    border:3px solid green;
+    
+    margin-right:300px;
+    margin-left:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+a{
+    font-size:20px;
+
+}
+#im{
+    margin-left:50px;
+}
+h1{
+    font-size:50px;
+}
+#more{
+    margin-left:50px; 
+}
+#list{
+    border:3px solid violet;
+    margin-left:50px;
+    margin-top:20px;
+}
