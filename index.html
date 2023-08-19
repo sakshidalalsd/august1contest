@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+    <style>
+        table, td, th {
+         border: 1px solid black;
+         border-collapse: collapse;
+         padding: 8px;
+        }
+    </style>
+    <title>contest 2</title>
 </head>
 <body>
-    hii
+    <header>
+        <div class="sticky">
+    <div class="navbar">
+        
+    <div class="book">
+     <a href="#section1">Books</a>
+    </div>
+     <div class="register">
+        <a href="#section2">Register</a>
+     </div>
+   </div>
+   </div>
+   </header>
+   <div id="section1">
+    <h1>BOOKS</h1>
+    <div class="table1">
+    <table>
+        <tr style="font-weight: 200">
+            <th >Books ID</th>
+            <th colspan="2">Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Avability</th>
+        </tr>
+        <tr>
+            <td >1</td>
+            <td colspan="2"> <a href="#" class="btn">Books title 1</a>
+                <p>history</p>
+                <p>geography</p>
+                <p>maths</p>
+            </td>
+            <td>Auhor name</td>
+            <td>gener1</td>
+             <td>Available</td>
+        </tr>
+        <tr>
+            <td >2</td>
+            <td colspan="2"> <a href="#" class="btn">Books title 2</a>
+                <p>history</p>
+                <p>geography</p>
+                <p>maths</p>
+              </td>
+            <td>Auhor name</td>
+            <td>gener2</td>
+             <td>Available</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2" > <a href="#" class="btn">Books title 3</a>
+                <p>history</p>
+                <p>geography</p>
+                <p>maths</p>
+            </td>
+            <td>Auhor name</td>
+            <td>gener1</td>
+             <td>Available</td>
+        </tr>
+      </table>
+    </div>
+   </div>
+    <div id="section2">
+        <h1>Register</h1>
+        <div class="form">
+        <form method="post" >
+        <label for="name">First Name:</label><br>
+        <input type="text" id="name" required><br>
+        <label for="name">Last Name:</label><br>
+        <input type="text" id="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="name" required><br>
+        <label for="age">Male:</label><br>
+        <input type="radio"   name="let" required><br>
+        <label for="age">Female:</label><br>
+        <input type="radio"  name="let" required><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" required><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="date" min="5" max="100" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="date" required><br>
+        <label for="password">Confirm Password:</label><br>
+        <input type="password" id="date" required><br>
+         <button type="submit" id="bye">Submit</button><br>
+        </form>
+        </div>
+    </div>
 </body>
 </html>
